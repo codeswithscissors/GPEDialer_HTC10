@@ -1,10 +1,19 @@
+v2.1.1  
+    - Updated Telecom and
+      Teleservice apks
 v2.0.1
-	- Update Contacts to version 1.5.16
-	- Moved Contacts to priv-app
-	- Merged changes from update-binary from template
+    - Update Contacts to version
+      1.5.16
+    - Moved Contacts to priv-app
+    - Merged changes from 
+      update-binary from template
 v2.0.0
-    - Update to the Pixel Dialer(5.1.13) and Contacts(1.4.22) 
+    - Update to the Pixel 
+      Dialer(5.1.13) and 
+      Contacts(1.4.22) 
 v1.0.0
-    - This replaces the Stock HTC Dialer and Contacts wiith the GPE Dialer & Contacts
+    - This replaces the Stock HTC 
+      Dialer and Contacts wiith 
+      the GPE Dialer & Contacts
     - GPE Dialer v4.0.12
     - Contacts v1.4.9
