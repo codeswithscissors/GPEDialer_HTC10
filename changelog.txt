@@ -1,3 +1,10 @@
+v2.1.2  
+    - Added support files
+      to get updates from
+	  PlayStore
+	- Merged latest Magisk
+	  template changes 
+	  for Magisk v9+
 v2.1.1  
     - Updated Telecom and
       Teleservice apks
