@@ -1,3 +1,6 @@
+v2.2.2  
+    - Updated to work
+      with N
 v2.1.2  
     - Added support files
       to get updates from
