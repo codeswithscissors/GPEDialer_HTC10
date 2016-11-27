@@ -263,10 +263,19 @@ ui_print "- Copying files"
 unzip -o "$ZIP" system/* -d $MODPATH
 
 # Handle replace folders
-for TARGET in $REPLACE; do
+if [ $API > 23 ]; then 
+for TARGET in $REPLACEN; do
   mktouch $MODPATH$TARGET/.replace
 done
+rm -rf $MODPATH/system/priv-app/Telecom
+rm -rf $MODPATH/system/priv-app/TeleService
+fi
 
+if [ $API < 24 ]; then 
+for TARGET in $REPLACEM; do
+  mktouch $MODPATH$TARGET/.replace
+done
+fi
 # Auto Mount
 if ($AUTOMOUNT); then
   mktouch $MODPATH/auto_mount

@@ -67,14 +67,20 @@ print_modname() {
 # Directories listed here however, will be directly mounted to the correspond directory in the system
 
 # This is an example
-REPLACE="
+REPLACEN="
+/system/priv-app/DialerService
+/system/priv-app/HtcContactsDialer
+/system/priv-app/HtcContactWidgets
+/system/priv-app/InCallUI
+"
+
+REPLACEM="
 /system/priv-app/DialerService
 /system/priv-app/HtcContactsDialer
 /system/priv-app/HtcContactWidgets
 /system/priv-app/Telecomm
 /system/priv-app/Telephony
 "
-
 # Construct your own list
 
 
