@@ -1,5 +1,7 @@
 v2.2.3  
     - Fix version detection
+      Thanks to @dastinger
+      for testing MM version
 v2.2.2  
     - Updated to work
       with N
